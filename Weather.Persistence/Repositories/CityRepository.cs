@@ -12,7 +12,7 @@ namespace Weather.Persistence.Repositories
         {
         }
         /// <summary>
-        /// GetLastAccessedCityAsync
+        /// GetLastAccessedCityAsync   
         /// </summary>
         /// <returns>City</returns>
         public async Task<City> GetLastAccessedCityAsync()
