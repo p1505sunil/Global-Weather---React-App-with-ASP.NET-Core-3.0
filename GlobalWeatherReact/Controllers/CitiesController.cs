@@ -9,7 +9,7 @@ namespace GlobalWeatherReact.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class CitiesController : ControllerBase
-    {
+    {   
         private readonly ICityService _service;
         private readonly ILogger _logger;
 
