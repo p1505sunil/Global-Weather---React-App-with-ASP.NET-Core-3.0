@@ -11,3 +11,4 @@ namespace Weather.Persistence.Models
         public DateTimeOffset AccessedDate { get; set; }
     }
 }
+  
