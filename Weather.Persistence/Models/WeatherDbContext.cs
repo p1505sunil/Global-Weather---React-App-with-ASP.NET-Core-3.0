@@ -8,7 +8,7 @@ namespace Weather.Persistence.Models
     public partial class WeatherDbContext : DbContext
     {
         public WeatherDbContext()
-        {
+        {  
         }
 
         public WeatherDbContext(DbContextOptions<WeatherDbContext> options)
